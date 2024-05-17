@@ -17,7 +17,7 @@ void pattern(aint x, aint y)
 	    rem--;
 	
         fprintf(f,"%c%c",x,y);
-         printf(f,"%c%c",x,y);
+        fprintf(f,"%c%c",x,y);
     } else if (x>y) {
 	    rem++;
 	    req--;
